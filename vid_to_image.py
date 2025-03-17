@@ -51,8 +51,3 @@ def extract_frames(video_path: str) -> int:
     print(f"\nFrames saved in {images_dir}")
 
     return frame_count
-
-
-# if __name__ == "__main__":
-#     video_file = input("Enter the path to the video file: ")
-#     extract_frames(video_file)
