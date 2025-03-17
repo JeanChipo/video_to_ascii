@@ -99,8 +99,3 @@ def process_images_to_ascii(total_frames, images_dir, output_file, filter_list, 
                 print(f"Skipping {image_path}")
 
     print(f"\nASCII art saved to {output_file}")
-
-# if __name__ == "__main__":
-#     images_folder = os.path.join(os.path.dirname(os.path.abspath(__file__)), "images")
-#     output_txt_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), "ascii_art.txt")
-#     process_images_to_ascii(images_folder, output_txt_file, width=450)
